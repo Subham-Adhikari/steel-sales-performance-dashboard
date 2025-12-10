@@ -1,100 +1,91 @@
-# Steel Sales Performance Dashboard  
-**Power BI + Power Query**
+# 🔥 Steel Sales Performance Dashboard  
+*Powered by Power BI & Power Query*
+
+---
 
 ## 1. Project Overview  
-This project analyzes the sales performance of a steel manufacturing company.  
-The goal is to understand revenue trends, product performance, category movement, and customer activity.  
-The dashboard enables stakeholders to make clear, data-driven decisions based on sales insights.
+This project analyzes the sales performance of a steel manufacturing company to help understand revenue trends, product success, category changes, and customer buying patterns. The goal is to equip decision-makers with clear, data-driven insights.
 
 ---
 
 ## 2. Dataset Summary  
-The dataset includes information about customers, products, regions, sales transactions, and a date table.  
-Data cleaning, transformation, and preparation were performed using **Power Query**, and the dashboard was developed in **Power BI**.
-
-### Key Data Fields:
-- Customer details (Customer ID, Customer Type)  
-- Product details (Category, Product Name)  
+The dataset includes:  
+- Customer details (ID, Type)  
+- Product details (Category, Name)  
 - Region details (Region Name)  
-- Date fields for time intelligence  
-- Sales transaction data (Quantity, Unit Price, Sales Amount, Order Date)
+- Sales transactions (Quantity, Unit Price, Sales Amount, Order Date)  
+- Date information for time analysis  
+
+Data cleaning and transformation were done using **Power Query**. The dashboard was built in **Power BI**.
 
 ---
 
 ## 3. Data Model  
-A **Star Schema** was designed for efficient analytics.
-
-- **FactSales** (central fact table)  
-- Connected dimension tables:  
+A star schema was designed to keep the data organized and analysis efficient:  
+- **FactSales** (central sales data)  
+- Dimension tables:  
   - `DimCustomer`  
   - `DimProduct`  
   - `DimRegion`  
   - `DateTable`  
 
-This model supports accurate filtering, segmentation, and time-series analysis.
+This structure enables smooth filtering and slicing of data.
 
-*(Data model image displayed above in repository)*
+**Data Model Screenshot:**  
+[View Data Model](https://your-link-to-data-model-image.com)
 
 ---
 
-## 4. Dashboard Insights  
+## 4. Dashboard Highlights  
 
-### **Overall KPIs**
-- **Total Revenue:** 10M  
-- **Total Orders:** 891  
-- **Total Customers:** 200  
+### 📊 Overall KPIs  
+- 💰 **Total Revenue:** 10M  
+- 🛒 **Total Orders:** 891  
+- 👥 **Total Customers:** 200  
 
-Provides a quick snapshot of company performance.
+### 📈 Monthly Sales Trend  
+Shows sales variation month-to-month to identify peaks and dips.
 
-### **Monthly Sales Trend**
-Shows how sales change month by month and helps identify high and low-performing periods.
+### 🏆 Top 5 Products  
+Highlights the highest revenue-generating products for focused strategy.
 
-### **Top 5 Products**
-Displays the highest revenue-generating products for better product strategy and inventory management.
+### 🔄 Category Rank Movement  
+Tracks ranking changes of product categories (Steel, Alloys, Refractory) over quarters.
 
-### **Category Rank Movement**
-Shows how each product category (Steel, Alloys, Refractory) performs across quarters and how rankings shift.
+### 📉 Refractory Sales Drop (Q3 → Q4)  
+Waterfall chart explaining the significant sales decline in Q4 for Refractory products.
 
-### **Total Sales by Category**
-Breakdown of revenue contribution by each category.
-
-### **Average Sales by Category**
-Shows which category has the highest average revenue per order.
-
-### **Refractory Sales Drop (Q3 → Q4)**
-A waterfall chart explains the reasons behind the significant drop in refractory sales during Q4.
-
-*(Dashboard image also included above in repository)*
+**Dashboard Image:**  
+[View Dashboard](https://your-link-to-dashboard-image.com)
 
 ---
 
 ## 5. Key Business Findings  
-- Steel category generates the highest revenue overall.  
-- Refractory category performs well in Q3 but drops significantly in Q4.  
-- Sales depend heavily on a small number of top products.  
-- Monthly sales fluctuate, indicating potential forecasting and inventory challenges.
+- Steel category leads in revenue generation.  
+- Refractory category sales peak in Q3 but drop sharply in Q4.  
+- Sales heavily rely on a few top products.  
+- Monthly sales fluctuate, pointing to potential inventory and forecasting challenges.
 
 ---
 
 ## 6. Recommendations  
-- Investigate the Q4 drop in Refractory sales and address operational or demand-side issues.  
-- Strengthen marketing and production planning for top-performing products.  
-- Explore opportunities to improve lower-performing categories.  
-- Use monthly trend analysis for better inventory and demand forecasting.
+- 🔍 Investigate causes of the Q4 Refractory sales drop (operational or market-driven)  
+- 📢 Strengthen marketing & inventory for best-performing products  
+- 💡 Explore ways to boost lower-performing categories  
+- 📅 Use monthly sales trends for better demand forecasting and inventory planning
 
 ---
 
 ## 7. Tools Used  
-- **Power BI:** Data modeling, DAX calculations, and dashboard development  
-- **Power Query:** Data cleaning, shaping, and processing  
+- **Power BI:** Dashboard visualization, data modeling, and calculations  
+- **Power Query:** Data cleansing and preparation  
 
 ---
 
 ## 8. How to Use This Report  
 - Download the `.pbix` file from the repository  
-- Open it using Power BI Desktop  
-- Use slicers and filters for deeper exploration  
-- Adjust date range to analyze different time periods  
+- Open with Power BI Desktop  
+- Use slicers/filters for detailed exploration  
+- Adjust date ranges to analyze different time periods  
 
 ---
-
