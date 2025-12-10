@@ -32,7 +32,7 @@ A star schema was designed to keep the data organized and analysis efficient:
 This structure enables smooth filtering and slicing of data.
 
 **Data Model Screenshot:**  
-[View Data Model](https://github.com/Subham-Adhikari/steel-sales-performance-dashboard/blob/main/Images/data_model_.png)
+![View Data Model](https://github.com/Subham-Adhikari/steel-sales-performance-dashboard/blob/main/Images/data_model_.png)
 
 ---
 
@@ -56,7 +56,7 @@ Tracks ranking changes of product categories (Steel, Alloys, Refractory) over qu
 Waterfall chart explaining the significant sales decline in Q4 for Refractory products.
 
 **Dashboard Image:**  
-[View Dashboard](https://github.com/Subham-Adhikari/steel-sales-performance-dashboard/blob/main/Images/dashboard_.png)
+![View Dashboard](https://github.com/Subham-Adhikari/steel-sales-performance-dashboard/blob/main/Images/dashboard_.png)
 
 ---
 
